@@ -1,0 +1,6 @@
+.terraform/*
+.terraform.lock*
+plan*
+### Temporary saving statefile to git - 
+terraform.tfstate*
+.DS_Store
