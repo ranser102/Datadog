@@ -13,6 +13,10 @@ in Datadog together with a monitor, alert notification and SLO.
 - Execution exmaple:
 ```bash
 cd ./synthetics-examples
-terraform plan -out=plan -var-file=./synthetic-test-examplev.tfvars
+
+terraform init
+
+terraform plan -out=plan -var-file=./synthetic-test-example.tfvars
+
 terraform apply plan
 ```
